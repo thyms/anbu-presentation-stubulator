@@ -1,0 +1,7 @@
+script: git checkout develop && make test-app-ci
+deploy:
+  provider: heroku
+  api_key:
+    secure: BxyHTPYs3dvuHNxA45xqduHyiG94/X67szKUYG8LFMcZ6r1M7PpSxnrOKldbDiClxzMV8MocDjbNrwnodFFKSCh11OjkMKzLEjGW1JyQIBPU5pqIg73FLLFs7kfI45/kDl0O0BgTW5qnPOheS616seP1dh8PoXxVhyg3liwJh0Y=
+  app:
+    develop: anbu-presentation-stub01
