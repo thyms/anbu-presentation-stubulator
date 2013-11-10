@@ -13,10 +13,6 @@ setup-app:
 	npm install
 	git remote add stubulator01 git@heroku.com:anbu-presentation-stub01.git
 
-setup-heroku:
-	heroku apps:create --remote stubulator01 --app anbu-presentation-stub01
-	heroku config:add NODE_ENV=stubulator01  --app anbu-presentation-stub01
-
 .PHONY: no_targets__ list
 no_targets__:
 list:
