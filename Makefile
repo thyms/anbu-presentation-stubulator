@@ -9,7 +9,7 @@ test-app:
 test-app-ci:
 	echo 'No test to run for this project'
 
-setup-app:
+setup-project:
 	npm install
 	git remote add stubulator01 git@heroku.com:anbu-presentation-stub01.git
 
