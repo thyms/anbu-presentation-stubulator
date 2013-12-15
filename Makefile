@@ -11,7 +11,7 @@ test-app-ci:
 
 setup-project:
 	npm install
-	git remote add stubulator01 git@heroku.com:anbu-presentation-stub01.git
+	git remote add stub01 git@heroku.com:anbu-presentation-stub01.git
 
 .PHONY: no_targets__ list
 no_targets__:
